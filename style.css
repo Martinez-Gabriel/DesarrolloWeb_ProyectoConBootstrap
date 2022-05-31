@@ -1,0 +1,245 @@
+/*Iniciando CSS*/
+/* Aplicando estilo a Body */
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: hsl(235, 50%, 15%);
+   background-image: url(Imagenes/body/fondodelapantalla.jpg);
+   background-repeat: repeat;
+   background-size: auto;
+   background-attachment: fixed;
+   width: 100%;
+   font-family: 'Play', sans-serif;
+}
+
+/* Seccion Header de Bootstrap */
+header {
+   position: fixed;
+   width: 100%;
+   z-index: +3;
+   margin: 0%;
+   top: 0;
+}
+
+.background-header {
+   background-color: hsl(235, 50%, 15%);
+   border-bottom: 2px solid hsl (269, 10%, 20%);
+   
+}
+
+.btn {
+   color: hsl(269, 40%, 90%);
+   border: 1px solid hsl(269, 40%, 40%);
+}
+
+.btn:hover {
+   color: black;
+   background-color: hsl(269, 40%, 90%);
+}
+
+.carouselmodify{
+   z-index: -1;
+   padding: 1px;
+   margin-top: 120px;
+}
+
+h1{
+   font-size: 4rem;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   color: hsl(269, 40%, 85%);
+}
+
+h2 {
+   font-size: 4rem;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   color: hsl(269, 40%, 85%);
+}
+
+/* Seccion Imagenes de Streamers */
+
+.fondo-1 {
+   margin-bottom: 0px;
+}
+
+.fondo-2 {
+   background-color: hsl(235, 30%, 5%);
+   background-size: cover;
+   background-attachment: fixed;
+   margin-bottom: 10px;
+}
+
+#streamers{
+   padding: 150px;
+}
+
+.contenedor-img-streamers {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+   margin: 40px;
+   flex-wrap: wrap;
+}
+
+.img-streamers {
+   width: 200px;
+   height: 200px;
+   border-radius: 25px;
+   margin: 20px;
+   border: 2px solid hsl(269, 40%, 85%);
+}
+
+
+/* Seccion equipos de E-sports */
+
+#esport{
+   padding: 150px;
+}
+
+.contenedor-img-juego {
+   margin: 40px;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.img-juegos {
+   width: 370px;
+   height: 215px;
+   margin: 100px 20px;
+   border-radius: 25px;
+   border: 2px solid hsl(235, 50%, 10%);
+}
+
+.contenedor-img-jugadores {
+   width: 30%;
+   margin: 0px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: center;
+
+}
+
+.img-jugadores {
+border: 5px solid hsl(235, 50%, 10%);
+border-radius: 25px;
+width: 100px;
+height: 100px;
+margin: 20px;
+}
+
+/* Seccion Gaming House */
+
+#gaminghouse{
+   padding: 150px;
+}
+
+.gaminghouse {
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+flex-wrap: wrap;
+padding: 40px;
+}
+
+.iframe {
+   margin: 20px;
+   border-radius: 25px;
+   border: 2px solid hsl(269, 40%, 85%);
+}
+
+/* Seccion Partners */
+
+#partners{
+   padding: 150px;
+}
+
+.contenedor-img-partners {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   padding: 40px;
+}
+
+.columna1 {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap   ;
+}
+
+.columna2 {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+.img-partners {
+   width: 200px;
+   height: 200px;
+   margin: 20px;
+   border-radius: 25px;
+   border: 2px solid hsl(235, 50%, 10%);
+}
+
+/* Seccion Contactanos */
+
+.nuestras-redes {
+   background-color: hsl(235, 30%, 5%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   bottom: 0;
+}
+
+.contenedor-img-nuestras-redes {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60%;
+   justify-content: center;
+}
+
+.img-nuestras-redes {
+   width: 60%;
+   margin: 10px;
+}
+
+.copyright {
+   display: flex;
+   width: 40%;
+   justify-content: center;
+}
+
+p {
+   display: flex;
+   color: hsl(269, 40%, 85%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
